@@ -106,8 +106,8 @@
 
     <!-- body -->
 
-    <main>
-        <section class="bg-gray-100 relative text-center">
+    <main class="bg-gray-100">
+        <section class="relative text-center">
             <div class="container mx-auto px-4 py-24">
                 <div class="-mx-4 flex flex-wrap items-center justify-center space-y-6 lg:space-y-0">
                     <div class="px-4 w-full md:w-10/12 xl:w-7/12">
@@ -180,7 +180,7 @@
             id="modal">
             <div class="relative px-4 w-full max-w-4xl h-full md:h-auto">
                 <!-- Modal content -->
-                <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <div class="relative bg-white rounded-lg shadow">
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
                         <button class="absolute top-4 right-4" data-modal-toggle="modal">
@@ -202,13 +202,13 @@
         </div>
         <!-- End Modals -->
 
-        <div class="container mx-auto">
+        <div class="container mx-auto pt-16">
             <div class="lg:mx-auto lg:w-7/12">
                 <div class="flex items-center nowrap">
                     <div class="bg-black flex-grow h-px max-w-full opacity-25"></div>
                     <div class="px-10 w-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                            fill="currentColor" class="h-10 text-blackbg-black w-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#000"
+                            class="h-10 text-blackbg-black w-10">
                             <path fill="none" d="M0 0h24v24H0z" />
                             <path
                                 d="M7.05 14.121L4.93 16.243l2.828 2.828L19.071 7.757 16.243 4.93 14.12 7.05l1.415 1.414L14.12 9.88l-1.414-1.415-1.414 1.415 1.414 1.414-1.414 1.414-1.414-1.414-1.415 1.414 1.415 1.414-1.415 1.415L7.05 14.12zm9.9-11.313l4.242 4.242a1 1 0 0 1 0 1.414L8.464 21.192a1 1 0 0 1-1.414 0L2.808 16.95a1 1 0 0 1 0-1.414L15.536 2.808a1 1 0 0 1 1.414 0zM14.12 18.363l1.415-1.414 2.242 2.243h1.414v-1.414l-2.242-2.243 1.414-1.414L21 16.757V21h-4.242l-2.637-2.637zM5.636 9.878L2.807 7.05a1 1 0 0 1 0-1.415l2.829-2.828a1 1 0 0 1 1.414 0L9.88 5.635 8.464 7.05 6.343 4.928 4.929 6.343l2.121 2.12-1.414 1.415z" />
@@ -229,7 +229,7 @@
                 <div class="flex items-center nowrap">
                     <div class="bg-black flex-grow h-px max-w-full opacity-25"></div>
                     <div class="px-10 w-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#000"
                             class="h-10 text-blackbg-black w-10">
                             <path fill="none" d="M0 0h24v24H0z" />
                             <path
@@ -255,14 +255,12 @@
 
     <!-- footer -->
     <div class="pt-12">
-        <footer id="footer" class="relative z-50 dark:bg-gray-900">
+        <footer id="footer" class="relative z-50">
             <div class="py-10 flex flex-col justify-center items-center">
                 <a class="focus:outline-none" tabindex="0" role="link" aria-label="home link" href="javascript:void(0)">
-                    <img class="logof dark:hidden" src="Prosis.png" alt="Prosis Logo">
-                    <img class="logof dark:block hidden" src="Prosis.png" alt="Prosis Logo">
+                    <img class="logof " src="Prosis.png" alt="Prosis Logo">
                 </a>
-                <p tabindex="0"
-                    class="focus:outline-none mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">2022
+                <p tabindex="0" class="focus:outline-none mt-6 text-xs lg:text-sm leading-none text-gray-900">2022
                     Prosis. All Rights Reserved.</p>
             </div>
         </footer>
