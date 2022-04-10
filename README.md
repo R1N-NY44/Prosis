@@ -5,6 +5,4 @@ You can use the design from this project as you like, if you can please credit m
 
 Thank You!
 
-<a href="https://r1n-ny44.github.io/Prosis/" target="_blank">Go</a>
-
 View Project Here : https://r1n-ny44.github.io/Prosis/
